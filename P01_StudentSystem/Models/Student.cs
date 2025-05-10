@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace P01_StudentSystem.Models
+{
+    class Student
+    {
+        public int StudentId { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string PhoneNumber { get; set; }= string.Empty;
+        public string RegisteredOn { get; set; }= string.Empty;
+        public string Birthday { get; set; } = string.Empty;
+    }
+}
